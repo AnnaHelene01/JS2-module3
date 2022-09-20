@@ -1,3 +1,3 @@
-console.log('This is a module');
+console.log('This is a module...');
 
-import {console} from '/index.html';
+//Sjekk inspiser på index fil, med og uten type="module"
