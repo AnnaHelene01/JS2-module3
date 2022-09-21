@@ -3,7 +3,6 @@ export function addNumbers() {
 };
 
 
-
 //export default calculate() {
   //  console.log('This is the calculate function from module.mjs');
 //};
