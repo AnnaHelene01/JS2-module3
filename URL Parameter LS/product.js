@@ -5,4 +5,7 @@ const url = "product.html?firstName=ola&lastName=nordmann";
 const parameterString = window.location.search;
 const searchParameters = new URLSearchParams(parameterString);
 
-console.log(searchParameters.get('firstName'));
+const newFirstName = searchParameters.get('firstName')
+const newLastName = searchParameters.get('lastName')
+
+console.log(newFirstName, newLastName);
